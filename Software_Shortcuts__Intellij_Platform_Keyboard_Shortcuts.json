@@ -1,0 +1,1475 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "74929714-8549-11e6-a822-8c705a50cbf0", 
+    "deck_config_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "Based on PhpStorm deck from here:\n<a href='https://ankiweb.net/shared/info/1926481003'>shared deck page</a>.\n\nIntent is to create generic deck for Intellij platform shrotcuts, and then supplement it when needed with specific shortcuts for specific products.", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "paste-20839181320196.jpg", 
+        "paste-14134737371140.jpg"
+    ], 
+    "mid": "1467568254113", 
+    "name": "Software Shortcuts::Intellij Platform Keyboard Shortcuts", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic [reversed, extra, source]", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "asana", 
+                "keyboard", 
+                "shortcuts"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Front first", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Back first", 
+                    "ord": 1, 
+                    "qfmt": "{{Back}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Basic code completion.", 
+                "Ctrl + Space", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MeCALL?X]b", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Show intention actions and quick-fixes.", 
+                "Alt + Enter", 
+                "", 
+                "https://www.jetbrains.com/help/idea/2016.2/intention-actions.html"
+            ], 
+            "flags": 0, 
+            "guid": "b,lzj/-`a^", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Parameters info (within method call arguments).", 
+                "Ctrl + P", 
+                "<img src=\"paste-20839181320196.jpg\" />", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "m8039e8?57", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Quick documentation lookup for code under coursor.", 
+                "Ctrl + Q", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "P,B0wG3*Z*", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Brief info about code element under mouse cursor.", 
+                "Ctrl + hover mouse over code element", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tp$Le!:S}m", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Override methods (opens window that allows you to select methods you want to override)", 
+                "Ctrl + O", 
+                "<img src=\"paste-14134737371140.jpg\" />", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n#oU^[ht+R", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Implement methods", 
+                "Ctrl + I", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vnm2*^dyp=", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Surround with... (if..else, try..catch, for, etc.)", 
+                "Ctrl + Alt + T", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ki2zm-rX{<", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Comment/uncomment with line comment.", 
+                "Ctrl + /", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q.k}(r1loV", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Comment/uncomment with block comment.", 
+                "Ctrl + Shift + /", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dV-Fj_Y.O{", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Syntax aware selection in the editor. It selects a word at the caret and then selects expanding areas of the source code. For example, it may select a method name, then the expression that calls this method, then the whole statement, then the containing block, etc.", 
+                "Ctrl + W", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "k8aVzF2/FH", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Decrease current selection to previous state.", 
+                "Ctrl + Shift + W", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MBU#_,g.ZX", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Reformat code.", 
+                "Ctrl + Alt + L", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "g*^+.=.wQU", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Auto-indent line(s).", 
+                "Ctrl + Alt + I", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x1(`Ud=LDH", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Duplicate current line or selected block.", 
+                "Ctrl + D", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b7f@l,AE1&", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Delete line at caret.", 
+                "Ctrl + Y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Hm[uR3qA$N", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Smart line join (HTML and JavaScript only)", 
+                "Ctrl + Shift + J", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "S/V`6dfTt", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Smart line split (HTML and JavaScript only)", 
+                "Ctrl + Enter", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "tA,^~@(BI]", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Start new line.", 
+                "Shift + Enter", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uz:c(C9ES&", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Toggle case for word at caret or selected block.", 
+                "Ctrl + Shift + U", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b^K*dU@/ef", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Select till code block end/start.", 
+                "Ctrl + Shift + ] / [", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "v372myP%00", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Delete to word end", 
+                "Ctrl + Delete", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h@Ntu7~{9m", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Delete to word start", 
+                "Ctrl + Backspace", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eUAEz#xgpZ", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Expand/collapse code block", 
+                "Ctrl + Numpad +/-", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A,dG)n}a<x", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Close active editor tab", 
+                "Ctrl + F4", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h>&VV%M<SD", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Paste from history", 
+                "Ctrl + Shift + V", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hz!3WI@v8W", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Editing"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Step over", 
+                "F8", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "vw4a[SmO5b", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Step into", 
+                "F7", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NYF8`Z?RTl", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Step out", 
+                "Shift + F8", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p}yj|b{&P,", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Evaluate expression", 
+                "Alt + F8", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QHDq,T}_oX", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Resume program", 
+                "F9", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "w.7IucRE}.", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Toggle breakpoint", 
+                "Ctrl + F8", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "L7^5W7yH_O", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "View breakpoints", 
+                "Ctrl + Shift + F8", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D[lgyHOkM2", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Debugging"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Run", 
+                "Shift + F10", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "AW,J0gtfxn", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Running"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Debug", 
+                "Shift + F9", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nwIAf,#mm0", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Running"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Run context configuration from editor", 
+                "Ctrl + Shift + F10", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p=Ep~K5P&-", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Running"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Run command line", 
+                "Ctrl + Shift + X", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Ip+&NF^S6/", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Running"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find/Replace", 
+                "Ctrl + F/R", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "AY*0%`Ty]{", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Replace", 
+                "Search"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find next/previous", 
+                "F3/Shift + F3", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qK6g,w-=sH", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Replace", 
+                "Search"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find/Replace in path", 
+                "Ctrl + Shift + F/R", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "u6Fgca3mOr", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Replace", 
+                "Search"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find usages / Find usages in file", 
+                "Alt + F7 / Ctrl + F7", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A@Y-ImxvuF", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Usage"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Highlight usages in file", 
+                "Ctrl + Shift + F7", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "q4>{^S7zQn", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Usage"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Show usages", 
+                "Ctrl + Alt + F7", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wrPujROnp>", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Usage"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to class", 
+                "Ctrl + N", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n1$htB.:X?", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to file", 
+                "Ctrl +&nbsp;Shift + N", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xJ-g{c<9cJ", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to symbol", 
+                "Ctrl +&nbsp;Alt + Shift + N", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "hGSy,S;*Z;", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to line", 
+                "Ctrl +&nbsp;G", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nzxb_Ho]8E", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to next/previous editor tab", 
+                "Alt + Right/Left", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e<n7%6LLIX", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to editor (from tool window)", 
+                "Esc", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QuJnPr(ld!", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Recent files popup", 
+                "Ctrl + E", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Aoo;kY@3xl", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Navigate back/forward", 
+                "Ctrl +&nbsp;Alt + Left/Right", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Jc3kyjX*bs", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Navigate to last edit location", 
+                "Ctrl +&nbsp;Shift + Backspace", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t_q96JEP(P", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Select current file or symbol in any view", 
+                "Alt + F1", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "LyV,exi_;|", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to declaration", 
+                "Ctrl +&nbsp;B or&nbsp;Ctrl +&nbsp;Click", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "zt0&[M68kP", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to implementation(s)", 
+                "Ctrl +&nbsp;Alt + B", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x-</;@Hx!|", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Open quick definition lookup", 
+                "Ctrl +&nbsp;Shift + I", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A.:lkDH/9~", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to type declaration", 
+                "Ctrl +&nbsp;Shift + B", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "r2?<Q)o3_4", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to super-method/super-class", 
+                "Ctrl + U", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "j`D5bB7D&C", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Go to previous/next method", 
+                "Alt + Up/Down", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Li6sOv]kMA", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Move to code block end/start", 
+                "Ctrl +&nbsp;] / [", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gN4Of{Y+<1", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Next/previous highlighted error", 
+                "F2 / Shift + F2", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q:OzO2Cy~y", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Edit source / View source", 
+                "F4 / Ctrl + Enter", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "sLa98PZ.kd", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Navigation"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Copy/Move files", 
+                "F5/F6", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "MG$?~1u:37", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Safe Delete files", 
+                "Alt + Delete", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jffR-ZvMr!", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Rename files", 
+                "Shift + F6", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "oXZy]EvsTn", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Inline Variable Refactoring", 
+                "Ctrl + Alt + N", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qJ6,W%XmPt", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Extract Method/Variable/Field/Constant", 
+                "Ctrl +&nbsp;Alt + M/V/F/C", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "kNb&xN[pEi", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Refactor This (shows all available refactorings)", 
+                "Ctrl +&nbsp;Alt + Shift + T", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jFZg{Wb~LL", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Refactoring"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "'VCS' quick popup", 
+                "Alt + BackQuote (`)", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ko0BrMrKIm", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "VCS"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Commit project to VCS", 
+                "Ctrl +&nbsp;K", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "eQ8?Y)H=Hl", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "VCS"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Update project from VCS", 
+                "Ctrl +&nbsp;T", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "QnC7LPPp(P", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "VCS"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "View recent changes", 
+                "Alt + Shift + C", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "z_WRbzFdx3", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "VCS"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Search everywhere", 
+                "Double Shift", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "J+zaZe}EyU", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find Action", 
+                "Ctrl + Shift + A", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "M9hfSSe:29", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Open corresponding tool window", 
+                "Alt + #[0-9]", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "P_XiyYYPs>", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Toggle full screen mode", 
+                "Ctrl +&nbsp;Alt + F11", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "gZT>E1YN7+", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Toggle maximizing editor", 
+                "Ctrl +&nbsp;Shift + F12", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xkh.!HFHCf", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Add to Favorites", 
+                "Alt + Shift + F", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n.8^G%n2d?", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Inspect current file with current profile", 
+                "Alt + Shift + I", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "?{DN%x;mQ", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Open Settings dialog", 
+                "Ctrl +&nbsp;Alt + S", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "JfQx/@]ZOf", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Switch between tabs and tool window", 
+                "Ctrl +&nbsp;Tab", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "lvo]rcCxHN", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "General"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Insert Live Template", 
+                "Alt + J", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "n1h^)c0QYI", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "Snippets"
+            ]
+        }
+    ]
+}
