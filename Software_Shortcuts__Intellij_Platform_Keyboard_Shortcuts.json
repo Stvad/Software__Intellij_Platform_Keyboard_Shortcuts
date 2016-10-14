@@ -59,7 +59,8 @@
         "paste-14134737371140.jpg", 
         "paste-23742579212292.jpg", 
         "paste-76879914598404.jpg", 
-        "py_evaluate_expression.png"
+        "py_evaluate_expression.png", 
+        "paste-42618960478212.jpg"
     ], 
     "mid": "1467568254113", 
     "name": "Software Shortcuts::Intellij Platform Keyboard Shortcuts", 
@@ -127,9 +128,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "intellij", 
-                "shortcuts", 
-                "tip"
+                "shortcuts"
             ], 
             "tmpls": [
                 {
@@ -702,8 +701,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Resume program", 
-                "F9", 
+                "Resume program (if paused in debug)", 
+                "F9 (Debugging)", 
                 "", 
                 ""
             ], 
@@ -718,8 +717,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Toggle breakpoint", 
-                "Ctrl + F8", 
+                "Toggle breakpoint in current line", 
+                "Ctrl + (F)8", 
                 "", 
                 ""
             ], 
@@ -735,7 +734,7 @@
             "data": "", 
             "fields": [
                 "View breakpoints", 
-                "Ctrl + Shift + F8", 
+                "Ctrl + Shift + (F)8", 
                 "", 
                 ""
             ], 
@@ -798,22 +797,6 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Run command line", 
-                "Ctrl + Shift + X", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "Ip+&NF^S6/", 
-            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
-            "tags": [
-                "Running"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "Find/Replace", 
                 "Ctrl + F/R", 
                 "", 
@@ -865,24 +848,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Highlight usages in file", 
-                "Ctrl + Shift + F7", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "q4>{^S7zQn", 
-            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
-            "tags": [
-                "Usage"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "Show usages (of a class, method or variable) across the project", 
-                "Ctrl + Alt + F7", 
+                "Ctrl + Alt + (F)7", 
                 "", 
                 ""
             ], 
@@ -945,7 +912,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Go to line", 
+                "Go to line in current file", 
                 "Ctrl +&nbsp;G", 
                 "", 
                 ""
@@ -1009,7 +976,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Navigate back/forward", 
+                "Navigate back/forward (works for switching between the files, going to definitions, etc)", 
                 "Ctrl +&nbsp;Alt + Left/Right", 
                 "", 
                 ""
@@ -1041,22 +1008,6 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Select current file or symbol in any view", 
-                "Alt + F1", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "LyV,exi_;|", 
-            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
-            "tags": [
-                "Navigation"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "Go to declaration (of a class, method or variable)", 
                 "Ctrl +&nbsp;B or&nbsp;Ctrl +&nbsp;Click", 
                 "", 
@@ -1073,7 +1024,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Go to implementation(s)", 
+                "Go to implementation(s)&nbsp;", 
                 "Ctrl +&nbsp;Alt + B", 
                 "", 
                 ""
@@ -1091,7 +1042,7 @@
             "fields": [
                 "Open quick definition lookup", 
                 "Ctrl +&nbsp;Shift + I", 
-                "", 
+                "<img src=\"paste-42618960478212.jpg\" />", 
                 ""
             ], 
             "flags": 0, 
@@ -1185,8 +1136,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Edit source / View source", 
-                "F4 / Ctrl + Enter", 
+                "Edit source (from project tree view)", 
+                "F4&nbsp;", 
                 "", 
                 ""
             ], 
@@ -1201,8 +1152,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Copy/Move files", 
-                "F5/F6", 
+                "Copy file&nbsp;(when selected in project view)", 
+                "F5", 
                 "", 
                 ""
             ], 
@@ -1506,8 +1457,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Insert Live Template", 
-                "Alt + J", 
+                "Insert Live Template (commonly used code constructs like: comprehensions, for loops, property functions, main, super functions, etc).&nbsp;", 
+                "Ctrl + J", 
                 "", 
                 ""
             ], 
@@ -1639,6 +1590,22 @@
                 "intellij", 
                 "shortcuts", 
                 "tip"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Move File (when selected in project view)", 
+                "F6", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qw$Vug;k%w", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "shortcuts"
             ]
         }
     ]
