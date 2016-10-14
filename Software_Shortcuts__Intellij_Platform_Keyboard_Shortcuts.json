@@ -54,8 +54,12 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
+        "paste-37525129265156.jpg", 
         "paste-20839181320196.jpg", 
-        "paste-14134737371140.jpg"
+        "paste-14134737371140.jpg", 
+        "paste-23742579212292.jpg", 
+        "paste-76879914598404.jpg", 
+        "py_evaluate_expression.png"
     ], 
     "mid": "1467568254113", 
     "name": "Software Shortcuts::Intellij Platform Keyboard Shortcuts", 
@@ -123,9 +127,9 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "asana", 
-                "keyboard", 
-                "shortcuts"
+                "intellij", 
+                "shortcuts", 
+                "tip"
             ], 
             "tmpls": [
                 {
@@ -152,6 +156,62 @@
                 }
             ], 
             "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze [extra, source]", 
+            "sortf": 0, 
+            "tags": [
+                "intellij", 
+                "shortcuts", 
+                "tip"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
             "vers": []
         }
     ], 
@@ -208,7 +268,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Quick documentation lookup for code under coursor.", 
+                "Quick documentation lookup for code under coursor (also works in autocompletion window).", 
                 "Ctrl + Q", 
                 "", 
                 ""
@@ -256,7 +316,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Implement methods", 
+                "Implement methods of a base class", 
                 "Ctrl + I", 
                 "", 
                 ""
@@ -320,9 +380,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Syntax aware selection in the editor. It selects a word at the caret and then selects expanding areas of the source code. For example, it may select a method name, then the expression that calls this method, then the whole statement, then the containing block, etc.", 
+                "Syntax aware selection in the editor.&nbsp;", 
                 "Ctrl + W", 
-                "", 
+                "It selects a word at the caret and then selects expanding areas of the source code. For example, it may select a method name, then the expression that calls this method, then the whole statement, then the containing block, etc.", 
                 ""
             ], 
             "flags": 0, 
@@ -336,7 +396,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Decrease current selection to previous state.", 
+                "Decrease current selection to previous state (in the context of sythax aware selection).", 
                 "Ctrl + Shift + W", 
                 "", 
                 ""
@@ -353,7 +413,7 @@
             "data": "", 
             "fields": [
                 "Reformat code.", 
-                "Ctrl + Alt + L", 
+                "Shift + Alt + L", 
                 "", 
                 ""
             ], 
@@ -361,7 +421,9 @@
             "guid": "g*^+.=.wQU", 
             "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
             "tags": [
-                "Editing"
+                "Editing", 
+                "intellij", 
+                "shortcuts"
             ]
         }, 
         {
@@ -401,7 +463,7 @@
             "data": "", 
             "fields": [
                 "Delete line at caret.", 
-                "Ctrl + Y", 
+                "Ctrl + Y or Shift + Del", 
                 "", 
                 ""
             ], 
@@ -448,7 +510,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Start new line.", 
+                "Start new line (creates new line under the )", 
                 "Shift + Enter", 
                 "", 
                 ""
@@ -529,7 +591,7 @@
             "data": "", 
             "fields": [
                 "Expand/collapse code block", 
-                "Ctrl + Numpad +/-", 
+                "Ctrl and +/-", 
                 "", 
                 ""
             ], 
@@ -560,9 +622,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Paste from history", 
+                "Paste from clipboard history.", 
                 "Ctrl + Shift + V", 
-                "", 
+                "Allows you to choose from stuff copied, while IDE was open.&nbsp;", 
                 ""
             ], 
             "flags": 0, 
@@ -576,8 +638,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Step over", 
-                "F8", 
+                "Debugger: Step over", 
+                "F8 (Debugger)", 
                 "", 
                 ""
             ], 
@@ -592,8 +654,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Step into", 
-                "F7", 
+                "Debugger: Step into", 
+                "F7 (Debugger)", 
                 "", 
                 ""
             ], 
@@ -608,8 +670,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Step out", 
-                "Shift + F8", 
+                "Debugger:&nbsp;Step out", 
+                "Shift + F8 (Debugger)", 
                 "", 
                 ""
             ], 
@@ -624,10 +686,10 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Evaluate expression", 
+                "Evaluate expression/code fragment while debugging.", 
                 "Alt + F8", 
-                "", 
-                ""
+                "<img src=\"py_evaluate_expression.png\" />", 
+                "https://www.jetbrains.com/help/pycharm/2016.1/evaluating-expressions.html"
             ], 
             "flags": 0, 
             "guid": "QHDq,T}_oX", 
@@ -688,7 +750,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Run", 
+                "Run current configuration", 
                 "Shift + F10", 
                 "", 
                 ""
@@ -704,7 +766,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Debug", 
+                "Debug&nbsp;current configuration", 
                 "Shift + F9", 
                 "", 
                 ""
@@ -803,22 +865,6 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Find usages / Find usages in file", 
-                "Alt + F7 / Ctrl + F7", 
-                "", 
-                ""
-            ], 
-            "flags": 0, 
-            "guid": "A@Y-ImxvuF", 
-            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
-            "tags": [
-                "Usage"
-            ]
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "Highlight usages in file", 
                 "Ctrl + Shift + F7", 
                 "", 
@@ -835,7 +881,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Show usages", 
+                "Show usages (of a class, method or variable) across the project", 
                 "Ctrl + Alt + F7", 
                 "", 
                 ""
@@ -883,7 +929,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Go to symbol", 
+                "Go to symbol (class, method, field)", 
                 "Ctrl +&nbsp;Alt + Shift + N", 
                 "", 
                 ""
@@ -947,9 +993,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Recent files popup", 
+                "Recent files popup.", 
                 "Ctrl + E", 
-                "", 
+                "Besides recent files, you can bring up results of the usage searches you have performed recently. To do that, use the same <b>Ctrl+E</b> shortcut with the Find tool window having the focus, and select the desired find usages result from the Recent Find Usages popup.", 
                 ""
             ], 
             "flags": 0, 
@@ -979,9 +1025,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Navigate to last edit location", 
+                "Navigate to last edit location (brings you back to the last place where you made changes in the code)", 
                 "Ctrl +&nbsp;Shift + Backspace", 
-                "", 
+                "Pressing Ctrl+Shift+Backspace a few times moves you deeper into your changes history.", 
                 ""
             ], 
             "flags": 0, 
@@ -1011,7 +1057,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Go to declaration", 
+                "Go to declaration (of a class, method or variable)", 
                 "Ctrl +&nbsp;B or&nbsp;Ctrl +&nbsp;Click", 
                 "", 
                 ""
@@ -1091,7 +1137,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Go to previous/next method", 
+                "Go to previous/next method in the editor", 
                 "Alt + Up/Down", 
                 "", 
                 ""
@@ -1187,7 +1233,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Rename files", 
+                "Rename refactoring", 
                 "Shift + F6", 
                 "", 
                 ""
@@ -1203,9 +1249,9 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Inline Variable Refactoring", 
-                "Ctrl + Alt + N", 
-                "", 
+                "Introduce Variable Refactoring from expression", 
+                "Ctrl + Alt + V", 
+                "This expression may even be incomplete or contain errors.&nbsp;<div>It also can select a likely expression when no text is selected.</div>", 
                 ""
             ], 
             "flags": 0, 
@@ -1235,7 +1281,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Refactor This (shows all available refactorings)", 
+                "Refactor This (shows all refactorings&nbsp;available&nbsp;in the current context)", 
                 "Ctrl +&nbsp;Alt + Shift + T", 
                 "", 
                 ""
@@ -1299,7 +1345,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "View recent changes", 
+                "View recent changes to the project", 
                 "Alt + Shift + C", 
                 "", 
                 ""
@@ -1315,7 +1361,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Search everywhere", 
+                "Find any action, symbol, or setting", 
                 "Double Shift", 
                 "", 
                 ""
@@ -1324,7 +1370,8 @@
             "guid": "J+zaZe}EyU", 
             "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
             "tags": [
-                "General"
+                "intellij", 
+                "shortcuts"
             ]
         }, 
         {
@@ -1469,6 +1516,129 @@
             "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
             "tags": [
                 "Snippets"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The shortcuts such as Ctrl+Q (View | Quick Documentation), Ctrl+P (View | Parameter Info), Ctrl+B (Navigate | Declaration) and others can be used {{c1::not only in the editor}} but in {{c2::the code completion popup list}} as well.", 
+                "<img src=\"paste-23742579212292.jpg\" />", 
+                "Tips list"
+            ], 
+            "flags": 0, 
+            "guid": "d`ITY*>{CK", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "keyboard", 
+                "shortcuts"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<div>When in the Go to Class, Go to Symbol, or Go to File popup, you can ease the search by filtering the lookup list with the help of the {{c1::\"camel words\"}} prefixes.</div>", 
+                "<img src=\"paste-37525129265156.jpg\" />", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "C]:Iu36Fa*", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "keyboard", 
+                "shortcuts"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Column selection", 
+                "Drag your mouse pointer while keeping Win + Alt (or Control+Alt+Shift) pressed", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Pq<2b|XzGq", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "keyboard", 
+                "shortcuts"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Copy whole line at caret", 
+                "Ctrl + C while nothing is selected", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qn%BWdb/Q8", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "keyboard", 
+                "shortcuts"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Run an inspection on the current file", 
+                "Alt + Shift + I", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pU@0=iFGMl", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "keyboard", 
+                "shortcuts"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "If there are too many run/debug configurations of the same type, you can {{c1::group them into folders}}, and thus distinguish them visually.", 
+                "<img src=\"paste-76879914598404.jpg\" />", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "E*HOef8>Lp", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "shortcuts", 
+                "tip"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Enable multiple cursors", 
+                "Win + Alt, click the left mouse button at the desired position to set additional cursors", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "D5[V;B:;AZ", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "intellij", 
+                "shortcuts", 
+                "tip"
             ]
         }
     ]
