@@ -226,7 +226,7 @@
             "data": "",
             "fields": [
                 "Basic code completion.",
-                "Ctrl + Space",
+                "⌃ + Space",
                 "",
                 ""
             ],
@@ -258,7 +258,7 @@
             "data": "",
             "fields": [
                 "Parameters info (within method call arguments).",
-                "Ctrl + P",
+                "⌘ + P",
                 "<img src=\"paste-20839181320196.jpg\" />",
                 ""
             ],
@@ -274,7 +274,7 @@
             "data": "",
             "fields": [
                 "Quick documentation lookup for code under coursor (also works in autocompletion window).",
-                "Ctrl + Q /Mac: Ctrl + J",
+                "⌃ + J",
                 "",
                 ""
             ],
@@ -290,7 +290,7 @@
             "data": "",
             "fields": [
                 "Brief info about code element under mouse cursor.",
-                "Ctrl + hover mouse over code element",
+                "⌘ + hover mouse over code element",
                 "",
                 ""
             ],
@@ -306,7 +306,7 @@
             "data": "",
             "fields": [
                 "Override methods (opens window that allows you to select methods you want to override)",
-                "Ctrl + O",
+                "Cmd + O",
                 "<img src=\"paste-14134737371140.jpg\" />",
                 ""
             ],
@@ -322,7 +322,7 @@
             "data": "",
             "fields": [
                 "Implement methods of a base class",
-                "Ctrl + I",
+                "⌘ + I",
                 "",
                 ""
             ],
@@ -338,7 +338,7 @@
             "data": "",
             "fields": [
                 "Surround with... (if..else, try..catch, for, etc.)",
-                "Ctrl + Alt + T. Mac(custom): Cmd+Alt+S",
+                "Custom: ⌘+⌥+S",
                 "",
                 ""
             ],
@@ -354,7 +354,7 @@
             "data": "",
             "fields": [
                 "Comment/uncomment with line comment.",
-                "Ctrl + /",
+                "⌘ + /",
                 "",
                 ""
             ],
@@ -370,7 +370,7 @@
             "data": "",
             "fields": [
                 "Comment/uncomment with block comment.",
-                "Ctrl + Shift + /",
+                "⌘ + Shift + /",
                 "",
                 ""
             ],
@@ -386,7 +386,7 @@
             "data": "",
             "fields": [
                 "Syntax aware selection in the editor.&nbsp;",
-                "Ctrl + W | Mac: Cmd+W",
+                "⌘+W",
                 "It selects a word at the caret and then selects expanding areas of the source code. For example, it may select a method name, then the expression that calls this method, then the whole statement, then the containing block, etc.",
                 ""
             ],
@@ -402,7 +402,7 @@
             "data": "",
             "fields": [
                 "Decrease current selection to previous state (in the context of sythax aware selection).",
-                "Ctrl + Shift + W",
+                "⌘ + ⇧ + W",
                 "",
                 ""
             ],
@@ -452,7 +452,7 @@
             "data": "",
             "fields": [
                 "Duplicate current line or selected block.",
-                "Ctrl + D",
+                "⌘ + D",
                 "",
                 ""
             ],
@@ -468,7 +468,7 @@
             "data": "",
             "fields": [
                 "Delete line at caret.",
-                "Ctrl + Y or Shift + Del",
+                "⌘ + Y or Shift + Del",
                 "",
                 ""
             ],
@@ -532,7 +532,7 @@
             "data": "",
             "fields": [
                 "Toggle case for word at caret or selected block.",
-                "Ctrl + Shift + U",
+                "⌘ + Shift + U",
                 "",
                 ""
             ],
@@ -548,7 +548,7 @@
             "data": "",
             "fields": [
                 "Select till code block end/start.",
-                "Ctrl + Shift + ] / [",
+                "⌘ + Shift + ] / [",
                 "",
                 ""
             ],
@@ -564,7 +564,7 @@
             "data": "",
             "fields": [
                 "Delete to word end",
-                "Ctrl + Delete",
+                "⌥ + Delete",
                 "",
                 ""
             ],
@@ -580,7 +580,7 @@
             "data": "",
             "fields": [
                 "Delete to word start",
-                "Ctrl + Backspace",
+                "⌥ + Backspace",
                 "",
                 ""
             ],
@@ -596,7 +596,7 @@
             "data": "",
             "fields": [
                 "Expand/collapse code block",
-                "Ctrl and +/- |Mac: Cmd and +/-",
+                "⌘ and +/-",
                 "",
                 ""
             ],
@@ -612,7 +612,7 @@
             "data": "",
             "fields": [
                 "Close active editor tab",
-                "Ctrl + F4",
+                "⌘ + F4",
                 "",
                 ""
             ],
@@ -628,7 +628,7 @@
             "data": "",
             "fields": [
                 "Paste from clipboard history.",
-                "Ctrl + Shift + V",
+                "⌘ + ⇧ + V",
                 "Allows you to choose from stuff copied, while IDE was open.&nbsp;",
                 ""
             ],
@@ -724,7 +724,7 @@
             "data": "",
             "fields": [
                 "Toggle breakpoint in current line",
-                "Ctrl + (F)8",
+                "⌘ + (F)8",
                 "",
                 ""
             ],
@@ -740,7 +740,7 @@
             "data": "",
             "fields": [
                 "View breakpoints",
-                "Ctrl + Shift + (F)8",
+                "⌘ + Shift + (F)8",
                 "",
                 ""
             ],
@@ -788,7 +788,7 @@
             "data": "",
             "fields": [
                 "Run context configuration from editor",
-                "Ctrl + Shift + F10",
+                "⌘ + Shift + F10",
                 "",
                 ""
             ],
@@ -804,7 +804,7 @@
             "data": "",
             "fields": [
                 "Find/Replace",
-                "Ctrl + F/R",
+                "⌘ + F/R",
                 "",
                 ""
             ],
@@ -838,7 +838,7 @@
             "data": "",
             "fields": [
                 "Find/Replace in path",
-                "Ctrl + Shift + F/R (On mac also Ctrl and not Cmd)",
+                "⌃ + Shift + F/R",
                 "",
                 ""
             ],
@@ -855,7 +855,7 @@
             "data": "",
             "fields": [
                 "Show usages (of a class, method or variable) across the project",
-                "Ctrl + Alt + (F)7",
+                "⌘ + Alt + (F)7",
                 "",
                 ""
             ],
@@ -871,7 +871,7 @@
             "data": "",
             "fields": [
                 "Go to class",
-                "Ctrl + N",
+                "⌘ + N",
                 "",
                 ""
             ],
@@ -887,7 +887,7 @@
             "data": "",
             "fields": [
                 "Go to file",
-                "Ctrl +&nbsp;Shift + N",
+                "⌘ + ⇧ + N",
                 "",
                 ""
             ],
@@ -903,7 +903,7 @@
             "data": "",
             "fields": [
                 "Go to symbol (class, method, field)",
-                "Ctrl +&nbsp;Alt + Shift + N",
+                "⌘ + ⌥ + ⇧ + N",
                 "",
                 ""
             ],
@@ -919,7 +919,7 @@
             "data": "",
             "fields": [
                 "Go to line in current file",
-                "Ctrl +&nbsp;G",
+                "⌘ +&nbsp;G",
                 "",
                 ""
             ],
@@ -967,8 +967,8 @@
             "data": "",
             "fields": [
                 "Recent files popup.",
-                "Ctrl + E",
-                "Besides recent files, you can bring up results of the usage searches you have performed recently. To do that, use the same <b>Ctrl+E</b> shortcut with the Find tool window having the focus, and select the desired find usages result from the Recent Find Usages popup.",
+                "⌘ + E",
+                "Besides recent files, you can bring up results of the usage searches you have performed recently. To do that, use the same <b>⌘+E</b> shortcut with the Find tool window having the focus, and select the desired find usages result from the Recent Find Usages popup.",
                 ""
             ],
             "flags": 0,
@@ -983,7 +983,7 @@
             "data": "",
             "fields": [
                 "Navigate back/forward (works for switching between the files, going to definitions, selections, etc)",
-                "Ctrl +&nbsp;Alt + Left/Right or Back and Forward mouse buttons.<div>Mac (custom ones): Ctrl + Shift + Left/Right</div>",
+                "Custom: ⌃ + ⇧ + Left/Right",
                 "",
                 ""
             ],
@@ -999,8 +999,8 @@
             "data": "",
             "fields": [
                 "Navigate to last edit location (brings you back to the last place where you made changes in the code)",
-                "Ctrl +&nbsp;Shift + Backspace",
-                "Pressing Ctrl+Shift+Backspace a few times moves you deeper into your changes history.",
+                "⌘ + ⇧ + Backspace",
+                "Pressing ⌘+⇧+Backspace a few times moves you deeper into your changes history.",
                 ""
             ],
             "flags": 0,
@@ -1015,7 +1015,7 @@
             "data": "",
             "fields": [
                 "Go to declaration (of a class, method or variable)",
-                "Ctrl +&nbsp;B or&nbsp;Ctrl + Left Mouse button Click",
+                "⌘ + B or ⌘ + Left Mouse button Click",
                 "",
                 ""
             ],
@@ -1031,7 +1031,7 @@
             "data": "",
             "fields": [
                 "Go to implementation(s)&nbsp;",
-                "Ctrl +&nbsp;Alt + B",
+                "⌘ + ⌥ + B",
                 "",
                 ""
             ],
@@ -1047,7 +1047,7 @@
             "data": "",
             "fields": [
                 "Open quick definition lookup",
-                "Ctrl +&nbsp;Shift + I",
+                "⌘ + ⇧ + I",
                 "<img src=\"paste-42618960478212.jpg\" />",
                 ""
             ],
@@ -1063,7 +1063,7 @@
             "data": "",
             "fields": [
                 "Go to type declaration",
-                "Ctrl +&nbsp;Shift + B",
+                "⌘ + ⇧ + B",
                 "",
                 ""
             ],
@@ -1079,7 +1079,7 @@
             "data": "",
             "fields": [
                 "Go to super-method/super-class",
-                "Ctrl + U",
+                "⌘ + U",
                 "",
                 ""
             ],
@@ -1111,7 +1111,7 @@
             "data": "",
             "fields": [
                 "Move to code block end/start",
-                "Ctrl +&nbsp;] / [",
+                "⌘ +&nbsp;] / [",
                 "",
                 ""
             ],
@@ -1223,7 +1223,7 @@
             "data": "",
             "fields": [
                 "Extract Method/Variable/Field/Constant/Parameter (function)",
-                "Ctrl +&nbsp;Alt + M/V/F/C/P",
+                "⌘ + ⌥ + M/V/F/C/P",
                 "",
                 ""
             ],
@@ -1239,7 +1239,7 @@
             "data": "",
             "fields": [
                 "Refactor This (shows all refactorings&nbsp;available&nbsp;in the current context)",
-                "Ctrl +&nbsp;Alt + Shift + T",
+                "⌘ + ⌥ + ⇧ + T",
                 "",
                 ""
             ],
@@ -1271,7 +1271,7 @@
             "data": "",
             "fields": [
                 "Commit project to VCS",
-                "Ctrl +&nbsp;K",
+                "⌘ +&nbsp;K",
                 "",
                 ""
             ],
@@ -1287,7 +1287,7 @@
             "data": "",
             "fields": [
                 "Update project from VCS",
-                "Ctrl +&nbsp;T",
+                "⌘ +&nbsp;T",
                 "",
                 ""
             ],
@@ -1336,7 +1336,7 @@
             "data": "",
             "fields": [
                 "Find Action",
-                "Ctrl + Shift + A",
+                "⌘ + ⇧ + A",
                 "",
                 ""
             ],
@@ -1368,7 +1368,7 @@
             "data": "",
             "fields": [
                 "Toggle full screen mode",
-                "Ctrl +&nbsp;Alt + F11",
+                "⌘ + ⌥ + F11",
                 "",
                 ""
             ],
@@ -1384,7 +1384,7 @@
             "data": "",
             "fields": [
                 "Toggle maximizing editor",
-                "Ctrl +&nbsp;Shift + F12",
+                "⌘ + ⇧ + F12",
                 "",
                 ""
             ],
@@ -1416,7 +1416,7 @@
             "data": "",
             "fields": [
                 "Open Settings dialog",
-                "Ctrl +&nbsp;Alt + S/ Mac: Cmd + ,",
+                "Cmd + ,",
                 "",
                 ""
             ],
@@ -1432,7 +1432,7 @@
             "data": "",
             "fields": [
                 "Switch between tabs; show tool window",
-                "Ctrl +&nbsp;Tab",
+                "⌃ + Tab",
                 "",
                 ""
             ],
@@ -1448,7 +1448,7 @@
             "data": "",
             "fields": [
                 "Insert Live Template (commonly used code constructs like: comprehensions, for loops, property functions, main, super functions, etc).&nbsp;",
-                "Ctrl + J",
+                "⌘ + J",
                 "",
                 ""
             ],
@@ -1463,7 +1463,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The shortcuts such as Ctrl+Q (View | Quick Documentation), Ctrl+P (View | Parameter Info), Ctrl+B (Navigate | Declaration) and others can be used {{c1::not only in the editor}} but in {{c2::the code completion popup list}} as well.",
+                "The shortcuts such as ⌘+Q (View | Quick Documentation), ⌘+P (View | Parameter Info), ⌘+B (Navigate | Declaration) and others can be used {{c1::not only in the editor}} but in {{c2::the code completion popup list}} as well.",
                 "<img src=\"paste-23742579212292.jpg\" />",
                 "Tips list"
             ],
@@ -1516,7 +1516,7 @@
             "data": "",
             "fields": [
                 "Copy whole line at caret",
-                "Ctrl + C while nothing is selected",
+                "⌘ + C while nothing is selected",
                 "",
                 ""
             ],
@@ -1603,7 +1603,7 @@
             "data": "",
             "fields": [
                 "Stop whatever is running right now",
-                "Ctrl + F2",
+                "⌘ + F2",
                 "",
                 ""
             ],
@@ -1620,7 +1620,7 @@
             "data": "",
             "fields": [
                 "Jump between compiler error messages or search operation results. (Next/Previous Occurance)",
-                "Ctrl + Alt + ↑/ Ctrl + Alt + ↓ (Also Ctrl and not Cmd on Mac)",
+                "⌃ + ⌥ + ↑/ ⌃ + ⌥ + ↓",
                 "",
                 ""
             ],
@@ -1976,7 +1976,7 @@
             "data": "",
             "fields": [
                 "Add several cursors to your editor (via keyboard).",
-                "Press Alt twice and hold the key (Ctrl if not on Mac), and then press the arrow keys.",
+                "Press ⌥ twice and hold the key, and then press the arrow keys.",
                 "",
                 "https://www.jetbrains.com/help/idea/auto-completing-code.html#smart_completion"
             ],
@@ -2063,7 +2063,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Alt+;&nbsp;twice or Ctrl+Alt+;",
+                "⌥+; twice or ⌃+⌥+;",
                 "AceJump: <strong>Target Mode</strong>. Once&nbsp;<strong>Target Mode</strong>&nbsp;is activated, jumping to a tag will select an entire word.&nbsp;<strong>Target Mode</strong>&nbsp;can also be activated directly by pressing the shortcut for&nbsp;AceTargetAction",
                 "<img src=\"paste-a7f96df91ad802b6b29b90bcf915ab4a1c43e63a.jpg\">",
                 "https://github.com/acejump/AceJump"
@@ -2142,7 +2142,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Ctrl+Shift+;",
+                "⌃+⇧+;",
                 "AceJump - Start in a word mode (hint for every word is displayed)",
                 "",
                 "https://github.com/acejump/AceJump"
