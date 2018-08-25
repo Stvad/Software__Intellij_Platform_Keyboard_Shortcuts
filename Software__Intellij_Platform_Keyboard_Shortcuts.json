@@ -242,7 +242,7 @@
             "data": "",
             "fields": [
                 "Show intention actions and quick-fixes.",
-                "Alt + Enter",
+                "⌥ + Enter",
                 "",
                 "https://www.jetbrains.com/help/idea/2016.2/intention-actions.html"
             ],
@@ -306,7 +306,7 @@
             "data": "",
             "fields": [
                 "Override methods (opens window that allows you to select methods you want to override)",
-                "Cmd + O",
+                "⌘ + O",
                 "<img src=\"paste-14134737371140.jpg\" />",
                 ""
             ],
@@ -370,7 +370,7 @@
             "data": "",
             "fields": [
                 "Comment/uncomment with block comment.",
-                "⌘ + Shift + /",
+                "⌘ + ⇧ + /",
                 "",
                 ""
             ],
@@ -418,7 +418,7 @@
             "data": "",
             "fields": [
                 "Reformat code.",
-                "Shift + Alt + L/Mac: Cmd + Alt + L",
+                "⌘ + ⌥ + L",
                 "",
                 ""
             ],
@@ -435,7 +435,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Auto-indent line(s).",
+                "(Todo: check/update) Auto-indent line(s).",
                 "Ctrl + Alt + I",
                 "",
                 ""
@@ -468,7 +468,7 @@
             "data": "",
             "fields": [
                 "Delete line at caret.",
-                "⌘ + Y or Shift + Del",
+                "⌘ + Y or ⇧ + Del",
                 "",
                 ""
             ],
@@ -483,7 +483,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Smart line join (HTML and JavaScript only)",
+                "(Todo: check/update) Smart line join (HTML and JavaScript only)",
                 "Ctrl + Shift + J",
                 "",
                 ""
@@ -499,7 +499,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Smart line split (HTML and JavaScript only)",
+                "(Todo: check/update) Smart line split (HTML and JavaScript only)",
                 "Ctrl + Enter",
                 "",
                 ""
@@ -516,7 +516,7 @@
             "data": "",
             "fields": [
                 "Start new line (creates new line under the current one and moves your coursour there)",
-                "Shift + Enter",
+                "⇧ + Enter",
                 "",
                 ""
             ],
@@ -532,7 +532,7 @@
             "data": "",
             "fields": [
                 "Toggle case for word at caret or selected block.",
-                "⌘ + Shift + U",
+                "⌘ + ⇧ + U",
                 "",
                 ""
             ],
@@ -548,7 +548,7 @@
             "data": "",
             "fields": [
                 "Select till code block end/start.",
-                "⌘ + Shift + ] / [",
+                "⌘ + ⇧ + ] / [",
                 "",
                 ""
             ],
@@ -676,7 +676,7 @@
             "data": "",
             "fields": [
                 "Debugger:&nbsp;Step out",
-                "Shift + F8 (Debugger)",
+                "⇧ + F8 (Debugger)",
                 "",
                 ""
             ],
@@ -692,7 +692,7 @@
             "data": "",
             "fields": [
                 "Evaluate expression/code fragment while debugging.",
-                "Alt + F8",
+                "⌥ + F8",
                 "<img src=\"py_evaluate_expression.png\" />",
                 "https://www.jetbrains.com/help/pycharm/2016.1/evaluating-expressions.html"
             ],
@@ -740,7 +740,7 @@
             "data": "",
             "fields": [
                 "View breakpoints",
-                "⌘ + Shift + (F)8",
+                "⌘ + ⇧ + (F)8",
                 "",
                 ""
             ],
@@ -756,7 +756,7 @@
             "data": "",
             "fields": [
                 "Run current configuration",
-                "Shift + F10",
+                "⇧ + F10",
                 "",
                 ""
             ],
@@ -772,7 +772,7 @@
             "data": "",
             "fields": [
                 "Debug&nbsp;current configuration",
-                "Shift + F9",
+                "⇧ + F9",
                 "",
                 ""
             ],
@@ -788,7 +788,7 @@
             "data": "",
             "fields": [
                 "Run context configuration from editor",
-                "⌘ + Shift + F10",
+                "⌘ + ⇧ + F10",
                 "",
                 ""
             ],
@@ -821,7 +821,7 @@
             "data": "",
             "fields": [
                 "Find next/previous",
-                "F3/Shift + F3",
+                "F3/⇧ + F3",
                 "",
                 ""
             ],
@@ -838,7 +838,7 @@
             "data": "",
             "fields": [
                 "Find/Replace in path",
-                "⌃ + Shift + F/R",
+                "⌃ + ⇧ + F/R",
                 "",
                 ""
             ],
@@ -855,7 +855,7 @@
             "data": "",
             "fields": [
                 "Show usages (of a class, method or variable) across the project",
-                "⌘ + Alt + (F)7",
+                "⌘ + ⌥ + (F)7",
                 "",
                 ""
             ],
@@ -934,7 +934,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Go to next/previous editor tab",
+                "(TODO: invalid) Go to next/previous editor tab",
                 "Alt + Right/Left",
                 "",
                 ""
@@ -1095,7 +1095,7 @@
             "data": "",
             "fields": [
                 "Go to previous/next method in the editor",
-                "Alt + Up/Down",
+                "⌥ + Up/Down",
                 "",
                 ""
             ],
@@ -1127,7 +1127,7 @@
             "data": "",
             "fields": [
                 "Next/previous highlighted error",
-                "F2 / Shift + F2",
+                "F2 / ⇧ + F2",
                 "",
                 ""
             ],
@@ -1175,7 +1175,7 @@
             "data": "",
             "fields": [
                 "Safe Delete files",
-                "Alt + Delete",
+                "⌘ + Backspace",
                 "",
                 ""
             ],
@@ -1191,7 +1191,7 @@
             "data": "",
             "fields": [
                 "Rename refactoring",
-                "Shift + F6",
+                "⇧ + F6",
                 "",
                 ""
             ],
@@ -1207,7 +1207,7 @@
             "data": "",
             "fields": [
                 "Introduce Variable Refactoring from expression. (Extract variable)",
-                "Cmd + Alt + X (custom)",
+                "⌘ + ⌥ + X (custom)",
                 "This expression may even be incomplete or contain errors.&nbsp;<div>It also can select a likely expression when no text is selected.</div>",
                 ""
             ],
@@ -1254,7 +1254,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "'VCS' quick popup",
+                "(Todo: check/update) 'VCS' quick popup",
                 "Alt + BackQuote (`)",
                 "",
                 ""
@@ -1302,7 +1302,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "View recent changes to the project",
+                "(Todo: check/update) View recent changes to the project",
                 "Alt + Shift + C",
                 "",
                 ""
@@ -1319,7 +1319,7 @@
             "data": "",
             "fields": [
                 "Find any action, symbol, or setting",
-                "Double Shift",
+                "Double ⇧",
                 "",
                 ""
             ],
@@ -1352,7 +1352,7 @@
             "data": "",
             "fields": [
                 "Open corresponding tool window",
-                "Alt + #[0-9] or Cmd + #[0-9] on Mac",
+                "⌘ + #[0-9]",
                 "",
                 ""
             ],
@@ -1400,7 +1400,7 @@
             "data": "",
             "fields": [
                 "Add to Favorites",
-                "Alt + Shift + F",
+                "⌥ + ⇧ + F",
                 "",
                 ""
             ],
@@ -1416,7 +1416,7 @@
             "data": "",
             "fields": [
                 "Open Settings dialog",
-                "Cmd + ,",
+                "⌘ + ,",
                 "",
                 ""
             ],
@@ -1498,7 +1498,7 @@
             "data": "",
             "fields": [
                 "Column selection",
-                "Drag your mouse pointer while keeping Win + Alt (or Control+Alt+Shift) pressed<div>Mac: Central mouse button + drag</div><div>or Alt + click and drag</div>",
+                "Drag your mouse pointer while keeping ⌥ pressed. Alternatively: press central mouse button + drag.",
                 "",
                 ""
             ],
@@ -1534,7 +1534,7 @@
             "data": "",
             "fields": [
                 "Run an inspection on the current file",
-                "Alt + Shift + I",
+                "⌥ + ⇧ + I",
                 "",
                 ""
             ],
@@ -1569,7 +1569,7 @@
             "data": "",
             "fields": [
                 "Enable multiple cursors",
-                "Win + Alt (Mac: just Alt), click the left mouse button at the desired position in the editor",
+                "⇧ + ⌥, click the left mouse button at the desired position in the editor",
                 "",
                 ""
             ],
@@ -1637,7 +1637,7 @@
             "data": "",
             "fields": [
                 "Hide active or last active window&nbsp;",
-                "Shift + Esc",
+                "⇧ + Esc",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
             ],
@@ -1653,7 +1653,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 1",
+                "⌘ + 1",
                 "Toggle Project structure panel",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1670,7 +1670,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 2",
+                "⌘ + 2",
                 "Toggle Favorites panel (bookmarks, breakpoints are also displayed)",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1687,7 +1687,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 4",
+                "⌘ + 4",
                 "Toggle Run panel (run current configuration, see the results)",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1704,7 +1704,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 5",
+                "⌘ + 5",
                 "Toggle Debugger panel",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1721,7 +1721,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 6",
+                "⌘ + 6",
                 "Toggle 'ToDo' panel (Shows the occurrences of todo comments across the project)",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1738,7 +1738,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 7",
+                "⌘ + 7",
                 "Toggle 'Structure' panel. Displays structure of the current class or file (methods, fields, etc)",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1755,7 +1755,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 9",
+                "⌘ + 9",
                 "Toggle Version Control panel.",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1772,7 +1772,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + 8 (custom)",
+                "⌘ + 8 (custom)",
                 "Toggle Language Console panel. Language console is opened in current working directory and has support for autocompletion/showing variables/etc.",
                 "",
                 "https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf"
@@ -1790,7 +1790,7 @@
             "data": "",
             "fields": [
                 "Inline variable (for all usages or the selected one) and optionally remove the variable",
-                "Cmd + Alt + N",
+                "⌘ + ⌥ + N",
                 "",
                 ""
             ],
@@ -2019,7 +2019,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Alt+Tab",
+                "⌥+Tab",
                 "Switch between open code panels sequentially",
                 "",
                 ""
@@ -2033,7 +2033,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Cmd + CapsLock (custom)",
+                "⌘ + CapsLock (custom)",
                 "Move open file to the opposite panel",
                 "",
                 ""
@@ -2047,7 +2047,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Alt+;",
+                "⌥+;",
                 "AceJump: The main AceAction.<div>Type any string in the editor, followed by one of highlighted tags, to jump its position.<br></div>",
                 "<img src=\"paste-d8221b63d23f36683ed3b7d6c59a2940efa0370e.jpg\">",
                 "https://github.com/acejump/AceJump"
@@ -2079,7 +2079,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Alt+Cmd+;",
+                "⌥+⌘+;",
                 "<strong>AceJump: Line Mode -&nbsp;</strong>target the beginning, first non-whitespace characters, and end of every line in the editor). Then jump to one by completing the tag.",
                 "<img src=\"paste-318150b4bd498ba1fb6efbbb600c8e298722d5f5.jpg\">",
                 "https://github.com/acejump/AceJump"
@@ -2095,7 +2095,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Press Alt+;&nbsp;followed {{c1::by&nbsp;→&nbsp;to target the last}},&nbsp;{{c2::←&nbsp;to target the first,}} or&nbsp;{{c3::↑, to target the first non-whitespace}} characters of every line in the editor.",
+                "Press ⌥+;&nbsp;followed {{c1::by&nbsp;→&nbsp;to target the last}},&nbsp;{{c2::←&nbsp;to target the first,}} or&nbsp;{{c3::↑, to target the first non-whitespace}} characters of every line in the editor.",
                 "<img src=\"paste-e9522f4a56151729a97709f01ce88b82cf981277.jpg\">",
                 "https://github.com/acejump/AceJump"
             ],
@@ -2110,7 +2110,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "AceJump: Hold down&nbsp;Shift&nbsp;when typing the last tag character",
+                "AceJump: Hold down&nbsp;⇧&nbsp;when typing the last tag character",
                 "Select all text from the current cursor position to that destination.",
                 "",
                 "https://github.com/acejump/AceJump"
